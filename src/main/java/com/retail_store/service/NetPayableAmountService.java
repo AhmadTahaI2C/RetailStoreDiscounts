@@ -57,8 +57,8 @@ public class NetPayableAmountService {
 		// 3.For every $100 on the bill, there would be a $ 5 discount
 		if (discountEvery100(billAmount)) {
 			int intAmount = ((int) (billAmount / 100)) * 100;
-			billAmount = billAmount - calculateDiscount(intAmount, DiscountsType.every_100);
-			netPayable.getNetPayableDescriptions().add(DiscountsType.every_100.getDiscountsDescription());
+			billAmount = billAmount - calculateDiscount(intAmount, DiscountsType.EVERY_100);
+			netPayable.getNetPayableDescriptions().add(DiscountsType.EVERY_100.getDiscountsDescription());
 		}
 
 		netPayable.setDecimalAmount(billAmount);

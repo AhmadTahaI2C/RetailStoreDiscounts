@@ -13,7 +13,7 @@ import com.retail_store.model.NetPayable;
 import com.retail_store.service.ServiceLocator;
 
 @RestController
-@RequestMapping("net-payable")
+@RequestMapping("retailStore/net-payable")
 public class NetPayableController {
 
 	@Autowired

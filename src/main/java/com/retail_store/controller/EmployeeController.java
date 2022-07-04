@@ -20,7 +20,7 @@ import com.retail_store.model.Employee;
 import com.retail_store.service.ServiceLocator;
 
 @RestController
-@RequestMapping("employee-rest")
+@RequestMapping("retailStore/employee")
 public class EmployeeController {
 
 	@Autowired
