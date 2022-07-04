@@ -54,6 +54,11 @@ POST	| /retailStore/net-payable	|
   
 ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) netPayableAmount : Result of applied discounts
   
+  
+ #### Regular Customer
+ Handle regular customer by add config proparty to check number of repetitions customer bill
+  `numOfRegularCustomer=1` 
+  
  #### UML class diagram 
   ![alt text](/UML.PNG)
 
