@@ -54,4 +54,7 @@ POST	| /retailStore/net-payable	|
   
 ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) netPayableAmount : Result of applied discounts
   
+ #### UML class diagram 
+  ![alt text](/UML.PNG)
+
   
