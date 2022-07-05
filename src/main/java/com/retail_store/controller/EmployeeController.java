@@ -62,7 +62,7 @@ public class EmployeeController {
 		}
 	}
 
-	@PutMapping("/update/{id}")
+	@PutMapping("/update")
 	public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee) {
 		try {
 			return new ResponseEntity<>(serviceLocator.getEmployeeService().updateEmployee(employee), HttpStatus.OK);
