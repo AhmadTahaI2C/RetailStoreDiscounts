@@ -5,7 +5,7 @@ On a retail website, the following discounts apply:
 2.	If the user is a regular customer of the store, he gets a 10% discount.
 3.	For every $100 on the bill, there would be a $ 5 discount (e.g. for $ 990, you get $ 45 as a discount).
 
-#### Emploee service
+#### Employee service
 Create restful APIs to handle crud opretion for employees.
 Method	| Path	| 
 ------------- | ------------------------- | 
